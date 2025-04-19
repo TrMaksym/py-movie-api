@@ -21,3 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("api/cinema/movie", include("cinema.urls", namespace="cinema")),
 ]
+
+app_name ="cinema"
